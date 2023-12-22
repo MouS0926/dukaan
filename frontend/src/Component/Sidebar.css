@@ -1,0 +1,10 @@
+.bg-blue{
+    background: #353C53;
+    display: flex;
+    /* width: 224px; */
+    padding: 16px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    flex: 1 0 0;
+}

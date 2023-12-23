@@ -168,7 +168,7 @@ export default function Body() {
                         </clipPath>
                     </defs>
                     </svg>
-                    <input type="text" placeholder="Search" />
+                    <input type="text" placeholder="Order ID or transaction ID" />
 
                         </div>
                     </div>

@@ -175,14 +175,14 @@ export default function Sidebar2() {
 const Wrapper = styled.div`
   display: flex;
 /* width: 224px; */
-width:15%;
+width:17%;
 padding: 16px 10px;
 flex-direction: column;
 align-items: center;
 gap: 16px;
 flex: 1 0 0;
 background:  #1E2640;
-height: auto;
+height: 100%;
 position: fixed;
 z-index: 1;
 
@@ -219,8 +219,8 @@ font-weight: 600;
 line-height: 22px; /* 146.667% */
 }
 .visit{
-    color:  #FFF;
-font-family: Galano Grotesque;
+    color:  #dbdada;
+    font-family: 'Nunito Sans', sans-serif;
 font-size: 13px;
 font-style: normal;
 font-weight: 400;

@@ -28,29 +28,7 @@ export default function Body() {
 
             <div className="b12d1">
 
-                    {/* <div className="box1">
-                        <div>
-                            <div>
-                                <div>
-
-                                    <p>Next Payout</p>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                    <g clip-path="url(#clip0_39208_34111)">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.8856 11.6358C8.8856 12.1266 8.48772 12.5245 7.9969 12.5245C7.50609 12.5245 7.1082 12.1266 7.1082 11.6358C7.1082 11.145 7.50609 10.7471 7.9969 10.7471C8.48772 10.7471 8.8856 11.145 8.8856 11.6358Z" fill="white"/>
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.99921 3.89508C7.47557 3.69776 7.99975 3.64614 8.50545 3.74673C9.01115 3.84732 9.47567 4.09561 9.84026 4.4602C10.2048 4.82479 10.4531 5.2893 10.5537 5.79501C10.6543 6.30071 10.6027 6.82488 10.4054 7.30124C10.2081 7.7776 9.87392 8.18475 9.44521 8.47121C9.16624 8.65761 8.85538 8.78746 8.53019 8.85542V8.96969C8.53019 9.26425 8.29141 9.50303 7.99685 9.50303C7.7023 9.50303 7.46352 9.26425 7.46352 8.96969V8.37723C7.46352 8.23578 7.51971 8.10012 7.61973 8.0001C7.71975 7.90008 7.85541 7.84389 7.99685 7.84389C8.3015 7.84389 8.5993 7.75356 8.8526 7.58431C9.1059 7.41506 9.30332 7.1745 9.4199 6.89304C9.53648 6.61159 9.56699 6.30189 9.50756 6.0031C9.44812 5.70431 9.30142 5.42986 9.08601 5.21444C8.87059 4.99903 8.59614 4.85233 8.29735 4.7929C7.99856 4.73347 7.68886 4.76397 7.40741 4.88055C7.12596 4.99713 6.8854 5.19456 6.71615 5.44786C6.5469 5.70116 6.45656 5.99896 6.45656 6.3036C6.45656 6.59815 6.21778 6.83693 5.92323 6.83693C5.62867 6.83693 5.38989 6.59815 5.38989 6.3036C5.38989 5.78799 5.54279 5.28396 5.82924 4.85525C6.1157 4.42653 6.52285 4.09239 6.99921 3.89508Z" fill="white"/>
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99687 1.86745C4.60953 1.86745 1.86354 4.61343 1.86354 8.00078C1.86354 11.3881 4.60953 14.1341 7.99687 14.1341C11.3842 14.1341 14.1302 11.3881 14.1302 8.00078C14.1302 4.61343 11.3842 1.86745 7.99687 1.86745ZM0.796875 8.00078C0.796875 4.02433 4.02042 0.800781 7.99687 0.800781C11.9733 0.800781 15.1969 4.02433 15.1969 8.00078C15.1969 11.9772 11.9733 15.2008 7.99687 15.2008C4.02042 15.2008 0.796875 11.9772 0.796875 8.00078Z" fill="white"/>
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_39208_34111">
-                                        <rect width="16" height="16" fill="white"/>
-                                        </clipPath>
-                                    </defs>
-                                    </svg>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
+                  
 
             <div className="mybox1">
                         <div className="deepblue">
@@ -190,7 +168,7 @@ export default function Body() {
                         </clipPath>
                     </defs>
                     </svg>
-
+                    <input type="text" placeholder="Search" />
 
                         </div>
                     </div>
@@ -801,6 +779,7 @@ const Bodydiv=styled.div`
     width: 90%;
   /* background-color: #fff; */
   align-items: flex-start;
+  padding: 33px 0;
 }
 
 .b1{
@@ -815,6 +794,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 align-self: stretch;
+padding: 0px 0 22px 0;
 }
 .b11 p{
 color:  #1A181E;
@@ -831,14 +811,16 @@ gap: 16px;
 border-radius: 4px;
 border: 1px solid var(--Black-85, #D9D9D9);
 background: var(--Black-100, #FFF);
+padding: 5px 16px;
+
 }
-.b11 div p{
-    color: var(--Black-30, #4D4D4D);
-    font-family: 'Nunito Sans', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
+.b11 div p {
+    color: #101010;
+    font-family: 'Nunito Sans',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
 .b12{
     display: flex;
@@ -862,7 +844,6 @@ justify-content: center;
 align-items: center;
 flex: 1 0 0;
 
-box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
 }
 //the light blue part
 .b12d1 .box1{
@@ -973,7 +954,7 @@ align-self: stretch;
 .amount p{
     color: var(--Black-12, #1A181E);
     font-family: 'Nunito Sans', sans-serif;
-font-size: 31px;
+font-size: 29px;
 font-style: normal;
 font-weight: 600;
 line-height: 38px; /* 118.75% */
@@ -989,10 +970,10 @@ gap: 8px;
 }
 .orderlink p{
     color: var(--Primary-Blue, #146EB4);
-font-family: Galano Grotesque;
-font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+font-size: 15px;
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 line-height: 24px; 
 text-decoration-line: underline;
 }
@@ -1012,10 +993,10 @@ gap: var(--Spacing-spacing-07, 20px);
 }
 .month p{
     color: var(--Black-12, #1A181E);
-font-family: Galano Grotesque;
+    font-family: 'Nunito Sans', sans-serif;
 font-size: 20px;
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 line-height: 28px;
 }
 .pilldiv{
@@ -1073,24 +1054,33 @@ box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
 justify-content: space-between;
 align-items: center;
 align-self: stretch;
+padding: 10px 0 15px 0;
+
 }
 .searchInput{
 display: flex;
 width: 248px;
 align-items: flex-start;
 }
-.searchField{
-display: flex;
-padding: 10px 16px;
-align-items: center;
-gap: 8px;
-flex: 1 0 0;
-
-border-radius: 4px;
-border: 1px solid var(--Black-85, #D9D9D9);
-background: var(--Black-100, #FFF);
+ .searchField {
+    display: flex;
+    padding: 2px 10px;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    border-radius: 4px;
+    border: 1px solid var(--Black-85, #D9D9D9);
+    background: var(--Black-100, #FFF);
 }
 
+.searchField input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px; 
+  padding: 8px; 
+  background: transparent; 
+}
 .sortdiv{
 display: flex;
 justify-content: flex-end;
@@ -1112,6 +1102,11 @@ height: 36px;
 flex-shrink: 0;
 border-radius: 4px;
 border: 1px solid var(--Black-85, #D9D9D9);
+
+display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .filter svg{
     width: var(--Spacing-spacing-07, 20px);
@@ -1210,7 +1205,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 flex: 1 0 0;
-box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+
 }
 .deepblue{
 display: flex;
@@ -1260,7 +1255,7 @@ align-self: stretch;
 }
 .rupee p{
     color: var(--Black-100, #FFF);
-font-family: Galano Grotesque;
+    font-family: 'Nunito Sans', sans-serif;
 font-size: 32px;
 font-style: normal;
 font-weight: 500;

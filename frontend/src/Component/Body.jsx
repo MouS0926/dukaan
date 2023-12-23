@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from "styled-components"
 
 
@@ -118,9 +119,15 @@ export default function Body() {
                 <div className="pill1">
                     <p>Payouts(22)</p>
                 </div>
-                <div className="pill2">
+               
+               <Link to='/refund'>
+               <div className="pill2">
                     <p>Refunds (2)</p>
                 </div>
+               </Link>
+               
+               
+               
             </div>
 
         </div>
@@ -173,9 +180,564 @@ export default function Body() {
                 </div>
 
 
-            <div className="tableheader"></div>
+    <div className="tableheader">
 
-             
+        <div className="col">
+            <div className="downarrowicon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                <path d="M3.4283 6.23409L0.604965 2.3286C0.546754 2.24507 0.515954 2.15037 0.515628 2.05392C0.515302 1.95746 0.545462 1.86262 0.603107 1.77882C0.660752 1.69502 0.743873 1.62519 0.844201 1.57627C0.944528 1.52736 1.05856 1.50106 1.17496 1.5H6.82163C6.93803 1.50106 7.05207 1.52736 7.15239 1.57627C7.25272 1.62519 7.33584 1.69502 7.39349 1.77882C7.45113 1.86262 7.48129 1.95746 7.48097 2.05392C7.48064 2.15037 7.44984 2.24507 7.39163 2.3286L4.5683 6.23409C4.50887 6.31526 4.4252 6.38238 4.32536 6.42895C4.22552 6.47553 4.11288 6.5 3.9983 6.5C3.88372 6.5 3.77107 6.47553 3.67123 6.42895C3.57139 6.38238 3.48772 6.31526 3.4283 6.23409Z" fill="#4D4D4D"/>
+                </svg>
+            </div>
+            <div className="spacer"></div>
+
+        </div>
+
+
+        <div className="col">
+            <div className="downarrowicon">
+           
+            </div>
+            <div className="spacer"></div>
+
+        </div>
+
+        <div className="col">
+            <div className="downarrowicon">
+                    <div className="headertext">
+                        <p>Transaction ID</p>
+                    </div>
+            </div>
+            <div className="spacer"></div>
+
+        </div>
+
+        <div className="col">
+            <div className="downarrowicon">
+                    <div className="headertext">
+                        <p>Order amount</p>
+                    </div>
+            </div>
+            <div className="spacer"></div>
+
+        </div>
+
+
+        <div className="col">
+            <div className="downarrowicon">
+                    <div className="headertext">
+                        <p>Transaction fees</p>
+                    </div>
+            </div>
+            <div className="spacer"></div>
+
+        </div>
+
+        <div className="col">
+            <div className="downarrowicon">
+                    <div className="headertext">
+                        <p>Total</p>
+                    </div>
+            </div>
+            <div className="spacer"></div>
+
+        </div>
+
+</div>
+
+<div className="srow">
+    <div className="scol">
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                <circle cx="5.66406" cy="5" r="5" fill="#999999"/>
+                </svg>
+
+                <p>Processing</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                
+
+                <p>131634495747</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹10,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <p>₹1,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹9,312</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+</div>
+
+<div className="srow">
+    <div className="scol">
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                 <circle cx="5.66406" cy="5" r="5" fill="#17B31B"/>
+                </svg>
+
+                <p>Processing</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                
+
+                <p>131634495747</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹10,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <p>₹1,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹9,312</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+</div>
+
+<div className="srow">
+    <div className="scol">
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                 <circle cx="5.66406" cy="5" r="5" fill="#17B31B"/>
+                </svg>
+
+                <p>Processing</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                
+
+                <p>131634495747</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹10,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <p>₹1,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹9,312</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+</div>
+
+
+<div className="srow">
+    <div className="scol">
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                 <circle cx="5.66406" cy="5" r="5" fill="#17B31B"/>
+                </svg>
+
+                <p>Processing</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                
+
+                <p>131634495747</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹10,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <p>₹1,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹9,312</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+</div>
+
+
+<div className="srow">
+    <div className="scol">
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                 <circle cx="5.66406" cy="5" r="5" fill="#17B31B"/>
+                </svg>
+
+                <p>Processing</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                
+
+                <p>131634495747</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹10,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <p>₹1,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹9,312</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+</div>
+
+
+<div className="srow">
+    <div className="scol">
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                 <circle cx="5.66406" cy="5" r="5" fill="#17B31B"/>
+                </svg>
+
+                <p>Processing</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                
+
+                <p>131634495747</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹10,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <p>₹1,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹9,312</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+</div>
+
+
+<div className="srow">
+    <div className="scol">
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                 <circle cx="5.66406" cy="5" r="5" fill="#17B31B"/>
+                </svg>
+
+                <p>Processing</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                
+
+                <p>131634495747</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹10,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <p>₹1,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹9,312</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+</div>
+        
 
         </div>
 
@@ -532,10 +1094,73 @@ background: var(--Black-95, #F2F2F2);
     display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: flex-start;
+align-items: flex-end;
 gap: -1px;
 flex: 1 0 0;
 }
+.downarrowicon{
+    display: flex;
+align-items: center;
+gap: 4px;
+}
+.spacer{
+    display: flex;
+align-items: flex-start;
+gap: 90px;
+}
+.headertext{
+ display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 2px;
+}
+.headertext p{
+    color: var(--Black-30, #4D4D4D);
+text-align: right;
 
+font-family: 'Nunito Sans', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+}
+
+.srow{
+display: flex;
+width: 100%;
+height: 48px;
+padding: 14px var(--Spacing-spacing-05, 12px);
+align-items: center;
+gap: 40px;
+background: var(--Black-100, #FFF);
+}
+
+.scol{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+gap: -1px;
+flex: 1 0 0;
+}
+.scol-text{
+display: flex;
+align-items: center;
+gap: 8px;
+}
+.tag{
+    display: flex;
+align-items: center;
+gap: 6px;
+}
+.tag p{
+color: var(--Black-12, #1A181E);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
 
 `

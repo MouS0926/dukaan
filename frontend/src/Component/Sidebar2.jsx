@@ -182,7 +182,10 @@ align-items: center;
 gap: 16px;
 flex: 1 0 0;
 background:  #1E2640;
-height: 100vh;
+height: auto;
+position: fixed;
+z-index: 1;
+
 `
 
 const Navbar=styled.div`

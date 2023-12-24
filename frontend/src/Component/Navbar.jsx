@@ -14,6 +14,11 @@ export default function Navbar() {
 
         <div className="howitwork">
 
+          <div className="payoutdiv">
+            <div className='payoutdivp'>Payouts</div>
+          </div>
+
+
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
         <g clip-path="url(#clip0_84664_6194)">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M7.78076 10.1799C7.78076 10.6093 7.43261 10.9575 7.00315 10.9575C6.57369 10.9575 6.22554 10.6093 6.22554 10.1799C6.22554 9.75039 6.57369 9.40225 7.00315 9.40225C7.43261 9.40225 7.78076 9.75039 7.78076 10.1799Z" fill="#4D4D4D"/>
@@ -112,6 +117,20 @@ gap: 16px;
 border-bottom: 1px solid #D9D9D9;
 background:  #FFF;
 
+.payoutdiv{
+  display: flex;
+align-items: center;
+gap: 16px;
+}
+.payoutdivp{
+  color: #1A181E;
+
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 140% */
+}
 .howWorkdiv{
 display: flex;
 align-items: center;

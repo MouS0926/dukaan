@@ -801,7 +801,7 @@ gap: 16px;
 border-radius: 4px;
 border: 1px solid var(--Black-85, #D9D9D9);
 background: var(--Black-100, #FFF);
-padding: 5px 16px;
+padding: 5px 11px;
 
 }
 .b11 div p {
@@ -943,8 +943,8 @@ align-items: center;
 align-self: stretch;
 }
 .amount p{
-    color: var(--Black-12, #1A181E);
-    font-family: 'Nunito Sans', sans-serif;
+    color: var(--Black-12, #302f30);
+    font-family: 'Roboto', sans-serif;
 font-size: 29px;
 font-style: normal;
 font-weight: 600;
@@ -1253,7 +1253,7 @@ align-self: stretch;
 }
 .rupee p{
     color: var(--Black-100, #FFF);
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 font-size: 32px;
 font-style: normal;
 font-weight: 500;

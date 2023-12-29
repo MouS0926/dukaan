@@ -685,7 +685,7 @@ export default function Body() {
 </div>
 
 
-<div className="srow">
+<div className="brow">
     <div className="scol">
         <div className="spacer"></div>
      </div>
@@ -776,7 +776,7 @@ const Bodydiv=styled.div`
   background: var(--Black-98, #FAFAFA);
 
 .bodymain{
-    width: 90%;
+    width: 93%;
   /* background-color: #fff; */
   align-items: flex-start;
   padding: 33px 0;
@@ -1168,6 +1168,19 @@ padding: 14px var(--Spacing-spacing-05, 12px);
 align-items: center;
 gap: 40px;
 background: var(--Black-100, #FFF);
+border-bottom: 1px solid #ebebeb;
+}
+
+
+.brow{
+display: flex;
+width: 100%;
+height: 48px;
+padding: 14px var(--Spacing-spacing-05, 12px);
+align-items: center;
+gap: 40px;
+background: var(--Black-100, #FFF);
+
 }
 
 .scol{

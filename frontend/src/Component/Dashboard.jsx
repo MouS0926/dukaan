@@ -29,7 +29,7 @@ box-sizing: border-box;
 `
 
 const Content = styled.div`
-width:85%;
+width:84%;
     display: flex;
   flex-direction: column;
  margin-left: auto;

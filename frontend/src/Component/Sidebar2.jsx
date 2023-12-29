@@ -175,7 +175,7 @@ export default function Sidebar2() {
 const Wrapper = styled.div`
   display: flex;
 /* width: 224px; */
-width:17%;
+width:16%;
 padding: 16px 10px;
 flex-direction: column;
 align-items: center;

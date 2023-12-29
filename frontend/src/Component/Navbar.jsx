@@ -50,7 +50,9 @@ export default function Navbar() {
   </defs>
 </svg>
 
-<p>Search features, tutorials, etc.</p>
+<input type="text" placeholder="Search features, tutorials, etc." />
+
+{/* <p>Search features, tutorials, etc.</p> */}
 </Searchbar>
 
 <Headerthirddiv>
@@ -66,6 +68,8 @@ export default function Navbar() {
             </svg>
             
             </svg>
+           
+
            
         </div>
 
@@ -181,6 +185,21 @@ font-style: normal;
 font-weight: 400;
 line-height: 22px; /* 146.667% */
 }
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 146.667% */
+    color: #808080;
+    padding: 0;
+  }
+
 `
 
 const Headerthirddiv=styled.div`

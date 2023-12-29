@@ -23,7 +23,7 @@ export default function Refundbody() {
         </div>
     </div>
 
-{/* box2 */}
+
     <div className="b2">
 
             <div className="b12d1">

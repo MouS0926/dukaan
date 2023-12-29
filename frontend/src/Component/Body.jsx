@@ -14,11 +14,17 @@ export default function Body() {
         <div className="b11">
                 <p>Overview</p>
                 <div>
-                    <p>This Month</p>
+                    {/* <p>This Month</p>
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
   <path d="M2.27748 5.77748C2.61381 5.44114 3.14013 5.41057 3.511 5.68575L3.61726 5.77748L8 10.1598L12.3827 5.77748C12.7191 5.44114 13.2454 5.41057 13.6163 5.68575L13.7225 5.77748C14.0589 6.11381 14.0894 6.64013 13.8142 7.011L13.7225 7.11726L8.66989 12.1699C8.33355 12.5062 7.80724 12.5368 7.43636 12.2616L7.33011 12.1699L2.27748 7.11726C1.90751 6.74729 1.90751 6.14745 2.27748 5.77748Z" fill="#4D4D4D"/>
-</svg>
+</svg> */}
+
+<select>
+        <option value="option1">This Month</option>
+        <option value="option2">Next Month</option>
+       
+      </select>
                 </div>
         </div>
     </div>
@@ -796,6 +802,16 @@ align-items: center;
 align-self: stretch;
 padding: 0px 0 22px 0;
 }
+.b11 select{
+    border:0;
+    color: #1A181E;
+    font-family: 'Nunito Sans',sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 19px;
+    border-radius: 4px;
+    
+}
 .b11 p{
 color:  #1A181E;
 font-family: 'Nunito Sans', sans-serif;
@@ -811,7 +827,7 @@ gap: 16px;
 border-radius: 4px;
 border: 1px solid var(--Black-85, #D9D9D9);
 background: var(--Black-100, #FFF);
-padding: 5px 11px;
+
 
 }
 .b11 div p {
@@ -1064,7 +1080,7 @@ align-items: flex-start;
 }
  .searchField {
     display: flex;
-    padding: 2px 10px;
+    padding: 10px 16px;
     align-items: center;
     gap: 8px;
     flex: 1 0 0;
@@ -1078,7 +1094,7 @@ align-items: flex-start;
   border: none;
   outline: none;
   font-size: 14px; 
-  padding: 8px; 
+  padding: 0; 
   background: transparent; 
 }
 .sortdiv{

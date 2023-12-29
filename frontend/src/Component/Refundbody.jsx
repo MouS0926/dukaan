@@ -1274,7 +1274,7 @@ text-decoration-line: underline;
 }
 .lightblue{
     display: flex;
-    width: 370.67px;
+    width: 100%;
     padding: var(--Spacing-spacing-04, 8px) 24px;
     justify-content: space-between;
     align-items: flex-start;

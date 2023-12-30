@@ -349,7 +349,7 @@ export default function Body() {
                  <circle cx="5.66406" cy="5" r="5" fill="#17B31B"/>
                 </svg>
 
-                <p>Processing</p>
+                <p>Successful</p>
 
             </div>
         </div>
@@ -419,78 +419,7 @@ export default function Body() {
                  <circle cx="5.66406" cy="5" r="5" fill="#17B31B"/>
                 </svg>
 
-                <p>Processing</p>
-
-            </div>
-        </div>
-        <div className="spacer"></div>
-     </div>
-
-
-     <div className="scol">
-        <div className="scol-text">
-            <div className="tag">
-                
-
-                <p>131634495747</p>
-
-            </div>
-        </div>
-        <div className="spacer"></div>
-     </div>
-
-
-     <div className="scol">
-        <div className="scol-text">
-            <div className="tag">
-               
-
-                <p>₹10,125.00</p>
-
-            </div>
-        </div>
-        <div className="spacer"></div>
-     </div>
-
-     <div className="scol">
-        <div className="scol-text">
-            <div className="tag">
-                <p>₹1,125.00</p>
-
-            </div>
-        </div>
-        <div className="spacer"></div>
-     </div>
-
-     <div className="scol">
-        <div className="scol-text">
-            <div className="tag">
-               
-
-                <p>₹9,312</p>
-
-            </div>
-        </div>
-        <div className="spacer"></div>
-     </div>
-
-
-</div>
-
-
-<div className="srow">
-    <div className="scol">
-        <div className="spacer"></div>
-     </div>
-
-     <div className="scol">
-        <div className="scol-text">
-            <div className="tag">
-                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
-                 <circle cx="5.66406" cy="5" r="5" fill="#17B31B"/>
-                </svg>
-
-                <p>Processing</p>
+                <p>Successful</p>
 
             </div>
         </div>
@@ -561,7 +490,7 @@ export default function Body() {
                  <circle cx="5.66406" cy="5" r="5" fill="#17B31B"/>
                 </svg>
 
-                <p>Processing</p>
+                <p>Successful</p>
 
             </div>
         </div>
@@ -632,7 +561,78 @@ export default function Body() {
                  <circle cx="5.66406" cy="5" r="5" fill="#17B31B"/>
                 </svg>
 
-                <p>Processing</p>
+                <p>Successful</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                
+
+                <p>131634495747</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹10,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <p>₹1,125.00</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+               
+
+                <p>₹9,312</p>
+
+            </div>
+        </div>
+        <div className="spacer"></div>
+     </div>
+
+
+</div>
+
+
+<div className="srow">
+    <div className="scol">
+        <div className="spacer"></div>
+     </div>
+
+     <div className="scol">
+        <div className="scol-text">
+            <div className="tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                 <circle cx="5.66406" cy="5" r="5" fill="#17B31B"/>
+                </svg>
+
+                <p>Successful</p>
 
             </div>
         </div>
@@ -782,7 +782,7 @@ const Bodydiv=styled.div`
   background: var(--Black-98, #FAFAFA);
 
 .bodymain{
-    width: 93%;
+    width: 95%;
   /* background-color: #fff; */
   align-items: flex-start;
   padding: 33px 0;
@@ -1306,7 +1306,7 @@ text-decoration-line: underline;
 .lightblue{
     display: flex;
     width: 100%;
-    padding: var(--Spacing-spacing-04, 8px) 24px;
+    padding: var(--Spacing-spacing-04, 8px) 15px;
     justify-content: space-between;
     align-items: flex-start;
     position: relative;

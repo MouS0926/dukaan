@@ -86,13 +86,15 @@ export default function Sidebar2() {
                 </svg>
                  <p>Analytics</p>
             </SingleMenu>
-
+          
+          
             <HoverMenu>
                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 13.75H1.47727C0.661397 13.75 0 13.1904 0 12.5V3.75C0 3.05964 0.661397 2.5 1.47727 2.5H14.7727C15.5886 2.5 16.25 3.05964 16.25 3.75L16.25 6.25H18.5227C19.3386 6.25 20 6.8796 20 7.65625V16.0938C20 16.8704 19.3386 17.5 18.5227 17.5H5.22727C4.4114 17.5 3.75 16.8704 3.75 16.0938V13.75ZM5 6C4.17157 6 3.5 6.67157 3.5 7.5V12.25H1.5V4H14.75L14.75 6H5ZM11.875 14.375C13.2557 14.375 14.375 13.2557 14.375 11.875C14.375 10.4943 13.2557 9.375 11.875 9.375C10.4943 9.375 9.375 10.4943 9.375 11.875C9.375 13.2557 10.4943 14.375 11.875 14.375Z" fill="white"/>
                 </svg>
                  <p>Payouts</p>
-            </HoverMenu>
+                 </HoverMenu>
+            
 
             <SingleMenu>
              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -174,9 +176,9 @@ export default function Sidebar2() {
 
 const Wrapper = styled.div`
   display: flex;
-/* width: 224px; */
-width:16%;
-padding: 16px 10px;
+width: 224px;
+/* width:15%; */
+padding: 16px 12px;
 flex-direction: column;
 align-items: center;
 gap: 16px;
@@ -194,10 +196,12 @@ flex-direction: column;
 align-items: center;
 gap: 24px;
 flex: 1 0 0;
+width:100%;
 `
 const Logo=styled.div`
   display: flex;
-width: 192px;
+/* width: 192px; */
+width:100%;
 align-items: center;
 gap: 20px 12px;
 `
@@ -233,7 +237,7 @@ const ArrowIcon=styled.div`
     
 `
 const Pages=styled.div`
-
+width:100%;
     display: flex;
 flex-direction: column;
 /* align-items: flex-start; */
@@ -244,8 +248,9 @@ flex: 1 0 0;
 `
 const SingleMenu=styled.div`
     display: flex;
-width: 208px;
-padding: 8px 16px;
+/* width: 208px; */
+width: 100%;
+padding: 8px 4px;
 align-items: flex-start;
 gap: 12px;
 
@@ -262,8 +267,8 @@ line-height: 20px; /* 142.857% */
 
 const HoverMenu=styled.div`
     display: flex;
-width: 200px;
-padding: 8px 16px;
+width: 100%;
+padding: 8px 6px;
 align-items: center;
 gap: 12px;
 border-radius: 4px;
@@ -281,7 +286,7 @@ line-height: 20px; /* 142.857% */
 `
 const Navbottom=styled.div`
     display: flex;
-width: 192px;
+width: 96%;
 padding: 6px 12px;
 
 align-items: flex-start;
